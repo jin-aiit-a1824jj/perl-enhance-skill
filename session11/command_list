@@ -9,3 +9,21 @@ perldoc Math::BigInt
 
 
 https://www.cpan.org/
+
+perl -MCPAN -e shell
+install Test::perldoc
+q
+
+cpan DBI
+cpan CPANPLUS
+cpanp i Math::BigInt
+
+sudo su -
+cpan App::cpanminus
+
+
+Archive::Zip
+https://cpan.metacpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.68.tar.gz
+Excel::Writer::XLSX
+https://cpan.metacpan.org/authors/id/J/JM/JMCNAMARA/Excel-Writer-XLSX-1.04.tar.gz
+
