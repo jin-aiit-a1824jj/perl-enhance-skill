@@ -1,0 +1,11 @@
+perl -v
+corelist -v 5.28.1
+corelist -v 5.28.1 /big/i
+
+sudo apt-get update -y
+sudo apt install perldoc -y
+
+perldoc Math::BigInt
+
+
+https://www.cpan.org/
