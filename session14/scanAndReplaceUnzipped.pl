@@ -49,7 +49,7 @@ my $file = $ARGV[0];
 
 #open my $fh, "$file" or die "Couldn't open file '$file' in changeSerialNumber subroutine: $!";
 
-$^I = ".bak";		# Perl's special little trick
+$^I = ".bak";		# Perl's special little trick [one liner]
 while (<>) {
 	s/(^Serial number\s:\s)\S{5,6}(\(RAID\d+\))/$1xxxxx$2/;
 	print;
