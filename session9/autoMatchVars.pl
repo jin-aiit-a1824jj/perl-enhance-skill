@@ -1,4 +1,4 @@
-#!/Users/darrylpace/localperl/bin/perl
+#!/usr/bin/perl
 
 $_ = "one two three";
 
